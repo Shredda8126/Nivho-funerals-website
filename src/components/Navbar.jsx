@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/logo-nivho.png";
 import { navItems } from "../constants";
-import { Menu, X } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
 
 function Navbar() {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -26,10 +26,11 @@ function Navbar() {
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a
-              href="#"
-              className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 rounded-md text-white"
+              href="tel:+1-555-123-4567"
+              className="hidden sm:flex items-center space-x-2 bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors"
             >
-              Learn More
+              <Phone size={18} />
+              <span className="font-medium">(555) 123-4567</span>
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -39,7 +40,7 @@ function Navbar() {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-white-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+          <div className="fixed right-0 z-20 bg-white w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
@@ -49,10 +50,11 @@ function Navbar() {
             </ul>
             <div className="flex space-x-6">
               <a
-                href="#"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-blue-500 to-blue-800"
+                href="tel:+1-555-123-4567"
+                className="sm:hidden flex items-center space-x-2 bg-blue-900 text-white px-5 py-2 rounded-lg hover:bg-blue-800 transition-colors"
               >
-                Learn More
+                <Phone size={18} />
+                <span className="font-medium">(555) 123-4567</span>
               </a>
             </div>
           </div>
