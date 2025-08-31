@@ -1,4 +1,4 @@
-import { ArrowRight, Heart, ImagesIcon, Link, Phone } from "lucide-react";
+import { Heart, Phone } from "lucide-react";
 import banner from "../assets/images.jpg";
 
 function HeroSection() {
@@ -12,7 +12,7 @@ function HeroSection() {
               <div className="flex items-center space-x-2 text-blue-900">
                 <Heart size={24} className="text-orange-600" />
                 <span className="text-sm font-semibold uppercase tracking-wide">
-                  Compassionate Care Since 0000
+                  Compassionate Care Since 2021
                 </span>
               </div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -22,7 +22,7 @@ function HeroSection() {
                 </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                For over 7 years, we have provided dignified funeral services with 
+                For over 4 years, we have provided dignified funeral services with 
                 compassion, respect, and personalized care during life's most difficult moments.
               </p>
             </div>
@@ -35,11 +35,11 @@ function HeroSection() {
                 Our Services
               </a>
               <a 
-                href="tel:+1-555-123-4567" 
+                href="tel:+27605003132" 
                 className="flex items-center justify-center space-x-2 border-2 border-blue-900 text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-900 hover:text-white transition-all duration-300"
               >
                 <Phone size={20} />
-                <span>Call 24/7: (555) 123-4567</span>
+                <span>Call 24/7: +27 60 500 3132</span>
               </a>
             </div>
 
@@ -61,7 +61,7 @@ function HeroSection() {
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-900">6+</div>
+                <div className="text-3xl font-bold text-blue-900">4+</div>
                 <div className="text-sm text-gray-600">Years of Service</div>
               </div>
             </div>

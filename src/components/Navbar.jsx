@@ -26,11 +26,11 @@ function Navbar() {
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a
-              href="tel:+1-555-123-4567"
+              href="tel:+27605003132"
               className="hidden sm:flex items-center space-x-2 bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors"
             >
               <Phone size={18} />
-              <span className="font-medium">(555) 123-4567</span>
+              <span className="font-medium">+27 60 500 3132</span>
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -50,11 +50,11 @@ function Navbar() {
             </ul>
             <div className="flex space-x-6">
               <a
-                href="tel:+1-555-123-4567"
+                href="tel:+27605003132"
                 className="sm:hidden flex items-center space-x-2 bg-blue-900 text-white px-5 py-2 rounded-lg hover:bg-blue-800 transition-colors"
               >
                 <Phone size={18} />
-                <span className="font-medium">(555) 123-4567</span>
+                <span className="font-medium">+27 60 500 3132</span>
               </a>
             </div>
           </div>

@@ -1,5 +1,5 @@
-import { Facebook, Heart, Instagram, Mail, MapPin, Phone, Twitter } from 'lucide-react'
-import React from 'react'
+import { Facebook, Heart, Instagram, Mail, MapPin, Phone, Twitter } from 'lucide-react';
+import Terms from "../assets/Ts&Cs.pdf";
 
 function Footer() {
   return (
@@ -10,17 +10,17 @@ function Footer() {
           <div className="lg:col-span-2 space-y-6">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                Eternal Rest Funeral Services
+                Nivho Funeral Services
               </h3>
               <p className="text-gray-300 leading-relaxed mb-4">
-                For over 70 years, we have been honored to serve families with 
+                For over 5 years, we have been honored to serve families with 
                 dignity, compassion, and respect. Our commitment to excellence 
                 and personalized service remains unwavering.
               </p>
               <div className="flex items-center space-x-2 text-orange-400">
                 <Heart size={20} />
                 <span className="text-sm font-semibold">
-                  Serving families since 1952
+                  Serving families since 2021
                 </span>
               </div>
             </div>
@@ -28,11 +28,11 @@ function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone size={18} className="text-orange-400" />
-                <span>(555) 123-4567 - 24/7 Emergency</span>
+                <span>+27 60 500 3132 - 24/7 Emergency</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-orange-400" />
-                <span>info@eternalrest.com</span>
+                <span>info@nivhofuneralservices.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin size={18} className="text-orange-400" />
@@ -48,11 +48,6 @@ function Footer() {
               <li>
                 <a href="#services" className="hover:text-white transition-colors">
                   Traditional Funerals
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-white transition-colors">
-                  Cremation Services
                 </a>
               </li>
               <li>
@@ -84,22 +79,12 @@ function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Grief Resources
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
                   Obituaries
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
                   Flowers & Gifts
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  FAQ
                 </a>
               </li>
             </ul>
@@ -110,9 +95,9 @@ function Footer() {
         <div className="border-t border-gray-700 pt-8 mt-12">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2025 Eternal Rest Funeral Services. All rights reserved. | 
+              © 2025 Nivho Funeral Services. All rights reserved. | 
               <a href="#" className="hover:text-white transition-colors ml-1">Privacy Policy</a> | 
-              <a href="#" className="hover:text-white transition-colors ml-1">Terms of Service</a>
+              <a href={Terms} className="hover:text-white transition-colors ml-1">Terms of Service</a>
             </div>
             
             <div className="flex items-center space-x-4">
@@ -120,9 +105,6 @@ function Footer() {
               <div className="flex space-x-3">
                 <a href="#" className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
                   <Facebook size={18} />
-                </a>
-                <a href="#" className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors">
-                  <Twitter size={18} />
                 </a>
                 <a href="#" className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors">
                   <Instagram size={18} />

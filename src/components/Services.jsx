@@ -96,11 +96,11 @@ function Services() {
               24 hours a day, 7 days a week to assist your family when you need us most.
             </p>
             <a 
-              href="tel:+1-555-123-4567" 
+              href="tel:+27605003132" 
               className="inline-flex items-center space-x-2 bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-orange-500 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               <Phone size={20} />
-              <span>Call Now: (555) 123-4567</span>
+              <span>Call Now: +27 60 500 3132</span>
             </a>
           </div>
         </div>

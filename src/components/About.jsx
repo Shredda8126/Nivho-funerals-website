@@ -1,4 +1,5 @@
 import { Users, Award, Clock, Heart } from 'lucide-react';
+import Picture from "../assets/service.jpg";
 
 function About() {
   const values = [
@@ -64,7 +65,7 @@ function About() {
 
           <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="https://images.pexels.com/photos/6068955/pexels-photo-6068955.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              src={Picture} 
               alt="Historic funeral home building"
               className="w-full h-full object-cover"
             />

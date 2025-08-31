@@ -27,7 +27,7 @@ function Testimonials() {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50" id="testimonials">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -76,7 +76,7 @@ function Testimonials() {
         <div className="mt-16 text-center">
           <div className="bg-white rounded-xl p-8 shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Trusted by Over 5,000 Families
+              Trusted by Over 40 Families
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
               For over seven decades, we have had the privilege of serving families 
@@ -84,11 +84,11 @@ function Testimonials() {
             </p>
             <div className="flex justify-center items-center space-x-8 text-sm font-semibold">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-900">5,000+</div>
+                <div className="text-3xl font-bold text-blue-900">20+</div>
                 <div className="text-gray-600">Families Served</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-900">70+</div>
+                <div className="text-3xl font-bold text-blue-900">4+</div>
                 <div className="text-gray-600">Years of Service</div>
               </div>
               <div className="text-center">
